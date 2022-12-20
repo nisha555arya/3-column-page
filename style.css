@@ -1,0 +1,22 @@
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: "raleway", sans-serif;
+    font-size: 14px;
+}
+
+.row {
+    width: 700px;
+}
+
+
+@media (max-width:800px) {
+    .row {
+        width: 250px;
+    }
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 800;
+}
